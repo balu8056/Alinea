@@ -1,0 +1,14 @@
+.footer .footerText,
+.footer .copyrights {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #343a40;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer .copyrights {
+    margin-bottom: 100px;
+  }
+}

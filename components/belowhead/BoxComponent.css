@@ -1,0 +1,29 @@
+.boxComponent {
+  padding: 30px;
+  height: 350px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #f7ecfa;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 1.5rem !important;
+}
+
+.boxComponent:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+}
+
+.boxComponent .profileImg {
+  font-size: 100px;
+  text-align: center;
+}
+
+.boxComponent .profileName {
+  text-align: center;
+  font-size: 25px;
+}
+
+.boxComponent .profileDesc {
+  color: #75849b;
+  text-align: center;
+}

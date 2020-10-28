@@ -1,0 +1,28 @@
+.bbbHead {
+  background-color: #343a40;
+  width: 100%;
+  height: 10%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+}
+
+.bbbHead .communityHead {
+  font-size: 40px;
+}
+
+.bbbHead .communityDesc {
+  color: #fff;
+  font-size: 20px;
+}
+
+.bbbHead .communityJoinBtn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #343a40;
+}

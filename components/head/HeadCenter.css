@@ -1,0 +1,88 @@
+.head {
+  line-height: 60px;
+}
+.head .row {
+  margin-top: 50px;
+}
+
+.headCenter {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.headCenter .topical {
+  font-weight: bold;
+}
+
+.start-your-journey {
+  font-family: "Ubuntu", sans-serif;
+  background-color: white;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: large;
+}
+
+.start-your-journey:hover {
+  background-color: #343a40;
+  border: 1px solid white;
+  color: #fff;
+}
+
+.apple-app-store {
+  width: 150px;
+  height: 60px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  background-image: url("../images/apple.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.topic {
+  margin-top: 100px;
+}
+
+.phoneGif {
+  float: right;
+  margin-top: 50px;
+}
+
+.rocketString {
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p.description {
+  margin-top: 10px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.topImg {
+  margin-top: -390px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .topic {
+    margin-top: 50px;
+  }
+  .head .row .phoneGif {
+    margin-top: 50px;
+  }
+  .topImg {
+    margin-top: -10px;
+  }
+}

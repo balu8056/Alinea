@@ -1,0 +1,19 @@
+.belowbelowHead {
+  margin-top: 50px;
+}
+
+.belowbelowHead .row {
+  margin-top: 50px;
+}
+
+.belowbelowHead h1 {
+  font-size: 35px;
+  color: #343a40;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .belowCollection {
+    margin-top: 50px;
+  }
+}

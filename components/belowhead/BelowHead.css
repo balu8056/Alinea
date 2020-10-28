@@ -1,0 +1,21 @@
+.belowHeadText {
+  background-color: #fff;
+  color: #343a40;
+}
+
+.belowHeadText .topText {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.belowHeadText .boxes .row {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .belowHeadText .topText {
+    font-size: 30px;
+  }
+}
